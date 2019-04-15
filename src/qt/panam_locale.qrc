@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/panam_bg.qm</file>
+        <file alias="ca">locale/panam_ca.qm</file>
+        <file alias="cs">locale/panam_cs.qm</file>
+        <file alias="da">locale/panam_da.qm</file>
+        <file alias="de">locale/panam_de.qm</file>
+        <file alias="en">locale/panam_en.qm</file>
+        <file alias="en_US">locale/panam_en_US.qm</file>
+        <file alias="es">locale/panam_es.qm</file>
+        <file alias="fi">locale/panam_fi.qm</file>
+        <file alias="fr_FR">locale/panam_fr_FR.qm</file>
+        <file alias="it">locale/panam_it.qm</file>
+        <file alias="ja">locale/panam_ja.qm</file>
+        <file alias="ko_KR">locale/panam_ko_KR.qm</file>
+        <file alias="nl">locale/panam_nl.qm</file>
+        <file alias="pl">locale/panam_pl.qm</file>
+        <file alias="pt">locale/panam_pt.qm</file>
+        <file alias="pt_BR">locale/panam_pt_BR.qm</file>
+        <file alias="ro_RO">locale/panam_ro_RO.qm</file>
+        <file alias="ru">locale/panam_ru.qm</file>
+        <file alias="sk">locale/panam_sk.qm</file>
+        <file alias="sv">locale/panam_sv.qm</file>
+        <file alias="tr">locale/panam_tr.qm</file>
+        <file alias="uk">locale/panam_uk.qm</file>
+        <file alias="zh_CN">locale/panam_zh_CN.qm</file>
+        <file alias="zh_TW">locale/panam_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,26 @@
+[Unit]
+Description=Panam's distributed currency daemon
+After=network.target
+
+[Service]
+User=panam
+Group=panam
+
+Type=forking
+PIDFile=/var/lib/panamd/panamd.pid
+
+ExecStart=/usr/bin/panamd -daemon -pid=/var/lib/panamd/panamd.pid \
+          -conf=/etc/panam/panam.conf -datadir=/var/lib/panamd
+
+ExecStop=-/usr/bin/panam-cli -conf=/etc/panam/panam.conf \
+         -datadir=/var/lib/panamd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

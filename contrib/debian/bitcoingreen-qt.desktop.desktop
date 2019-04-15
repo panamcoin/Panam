@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Panam
+Comment=Panam P2P Cryptocurrency
+Exec=panam-qt %u
+Terminal=false
+Type=Application
+Icon=panam128
+MimeType=x-scheme-handler/panam;
+Categories=Office;Finance;
+Name[en_US]=panam-qt.desktop

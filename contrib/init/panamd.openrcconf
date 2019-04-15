@@ -1,0 +1,26 @@
+# /etc/conf.d/panamd: config file for /etc/init.d/panamd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/panam/panam.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/panamd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/panamd.pid"
+
+# Where to write panamd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/panamd"
+
+# User and group to own panamd process
+#BITCOIND_USER="panam"
+#BITCOIND_GROUP="panam"
+
+# Path to panamd executable
+#BITCOIND_BIN="/usr/bin/panamd"
+
+# Nice value to run panamd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
